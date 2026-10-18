@@ -1,18 +1,19 @@
 # Prodotto — AIperPMI (sito nicchia AI per PMI)
 
 **ID prodotto:** OD-002  
-**Stato:** MVP sviluppato e pubblicato (4 pagine: home, confronto, guida, disclaimer + sitemap + robots)  
+**Stato:** MVP sviluppato e pubblicato (6 pagine: home, confronto, guida, disclaimer, contatti + sitemap + robots)  
 **Hosting:** Vercel (free tier) — €0  
 **URL pubblicato:** https://aixpmi.space/ (dominio proprio, acquistato per 2,41€ dall'utente)  
 **URL alternativo:** https://sito-nicchia-ai-pmi.vercel.app  
 **Budget speso da Karako Lab:** €0
 
 ## Pagine del MVP (tutte HTTP 200, online)
-- index.html — Homepage con valore, statistiche, sezioni "perché", "come scegliere", "trasparenza"
-- confronto.html — Tabella comparativa 6 tool AI reali per descrizioni prodotto e e-commerce
-- guida.html — Guida pratica: 4 passaggi, prompt esempio, errori da evitare, consiglio pratico
+- index.html — Homepage con valore, statistiche, sezioni "perché", "come scegliere", "settori", "trasparenza", FAQ con schema.org
+- confronto.html — Tabella comparativa 6 tool AI reali per descrizioni prodotto e e-commerce + dettagli per tool
+- guida.html — Guida pratica: 4 passaggi, prompt esempio, errori da evitare, esempi per settore, consiglio pratico
 - disclaimer.html — Trasparenza affiliazione, privacy, limitazione responsabilità
-- sitemap.xml — Sitemap per motori di ricerca
+- contatti.html — Pagina contatti con email ceo@aixpmi.space (ForwardEmail.net)
+- sitemap.xml — Sitemap per motori di ricerca (5 pagine)
 - robots.txt — Istruzioni per crawler
 
 ## Modello di monetizzazione
