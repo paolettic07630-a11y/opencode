@@ -8,54 +8,91 @@
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://aixpmi.space/contatti.html">
 <style>
+  :root{
+    --ink:#0f172a;
+    --muted:#64748b;
+    --line:#e2e8f0;
+    --bg:#ffffff;
+    --bg-soft:#f8fafc;
+    --accent:#2563eb;
+    --accent-hover:#1d4ed8;
+    --accent-soft:#eff6ff;
+    --radius:12px;
+    --shadow:0 4px 6px -1px rgba(0,0,0,0.06),0 2px 4px -1px rgba(0,0,0,0.03);
+    --transition:all 0.25s ease;
+  }
   *{box-sizing:border-box;margin:0;padding:0}
-  :root{--primary:#2563eb;--primary-dark:#1d4ed8;--bg:#f8fafc;--card:#ffffff;--text:#1f2937;--muted:#4b5563;--border:#e2e8f0}
-  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.7;color:var(--text);background:var(--bg)}
-  .container{max-width:640px;margin:0 auto;padding:0 20px}
-  header{background:var(--card);border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:0;z-index:10;box-shadow:0 1px 3px rgba(0,0,0,0.04)}
-  .nav{display:flex;justify-content:space-between;align-items:center}
-  .brand{font-weight:800;font-size:1.35rem;color:var(--text);text-decoration:none;letter-spacing:-0.5px}
-  .brand span{color:var(--primary)}
-  .back{color:#6b7280;text-decoration:none;font-size:0.95rem}
-  .back:hover{color:var(--primary)}
-  .hero{padding:44px 0 26px;text-align:center;background:var(--card)}
-  .hero h1{font-size:2rem;font-weight:800;color:var(--text);line-height:1.3;margin-bottom:12px}
-  .hero p{color:var(--muted);font-size:1.05rem;max-width:700px;margin:0 auto}
-  .section{padding:40px 0}
-  .section:nth-child(even){background:#f1f5f9}
-  h2{font-size:1.6rem;font-weight:800;color:var(--text);margin-bottom:10px}
-  .subhead{color:var(--muted);font-size:1rem;max-width:700px;margin:0 auto 26px}
-  .card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:24px;margin-bottom:20px}
-  .card h3{font-size:1.2rem;font-weight:700;color:var(--text);margin-bottom:10px}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height:1.6;color:var(--ink);background:var(--bg);-webkit-font-smoothing:antialiased
+  }
+  .container{max-width:640px;margin:0 auto;padding:0 24px}
+  header{
+    position:sticky;top:0;z-index:50;background:rgba(255,255,255,0.8);backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line)
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;flex-wrap:wrap}
+  .brand{font-weight:800;font-size:1.35rem;color:var(--ink);text-decoration:none;letter-spacing:-0.5px;display:flex;align-items:center;gap:8px}
+  .brand span{color:var(--accent)}
+  .brand-mark{
+    width:32px;height:32px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#0ea5e9);
+    display:inline-flex;align-items:center;justify-content:center;color:#fff;font-weight:900;font-size:1rem
+  }
+  .nav-actions{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  .btn{
+    display:inline-flex;align-items:center;gap:6px;border:none;border-radius:10px;font-weight:700;font-size:0.95rem;
+    cursor:pointer;transition:var(--transition);text-decoration:none
+  }
+  .btn-primary{background:var(--accent);color:#fff;padding:11px 24px;box-shadow:0 4px 14px rgba(37,99,235,0.25)}
+  .btn-primary:hover{background:var(--accent-hover);transform:translateY(-1px);box-shadow:0 6px 20px rgba(37,99,235,0.35)}
+  .btn-outline{background:transparent;color:var(--accent);border:1.5px solid var(--accent);padding:10px 24px}
+  .btn-outline:hover{background:var(--accent-soft);border-color:var(--accent-hover)}
+  .btn-ghost{background:transparent;color:var(--muted);padding:10px 20px}
+  .btn-ghost:hover{background:var(--bg-soft);color:var(--ink)}
+  .btn-sm{padding:8px 18px;font-size:0.875rem}
+  .section{padding:64px 0}
+  h2{font-size:2.25rem;font-weight:800;color:var(--ink);letter-spacing:-0.02em;margin-bottom:14px}
+  p{color:var(--muted);font-size:1.05rem;line-height:1.7;margin-bottom:18px}
+  .card{background:var(--bg);border:1px solid var(--line);border-radius:16px;padding:28px;transition:var(--transition)}
+  .card:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:var(--shadow)}
+  .card h3{font-size:1.25rem;font-weight:800;color:var(--ink);margin-bottom:10px}
   .card p{color:var(--muted);font-size:0.95rem;margin-bottom:12px}
-  .label{font-weight:700;color:var(--primary);font-size:0.9rem}
-  .email{font-weight:700;color:var(--primary);font-size:1.1rem}
+  .label{font-weight:700;color:var(--accent);font-size:0.9rem}
+  .email{font-weight:700;color:var(--accent);font-size:1.1rem}
   .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
-  footer{border-top:1px solid var(--border);padding:26px 0;text-align:center;color:var(--muted);font-size:0.85rem}
-  a{color:var(--primary);text-decoration:none}
-  a:hover{text-decoration:underline}
+  footer{border-top:1px solid var(--line);padding:56px 0 32px;color:var(--muted)}
+  .footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:32px;margin-bottom:40px}
+  .footer-col h4{color:var(--ink);font-size:0.95rem;font-weight:800;margin-bottom:16px}
+  .footer-col ul{list-style:none;padding:0}
+  .footer-col li{margin-bottom:10px}
+  .footer-col a{color:var(--muted);text-decoration:none;font-size:0.95rem;transition:var(--transition)}
+  .footer-col a:hover{color:var(--accent);text-decoration:underline}
+  .footer-note{font-size:0.85rem;color:var(--muted);border-top:1px solid var(--line);padding-top:24px}
+  @media (max-width:640px){h2{font-size:1.75rem}}
 </style>
 </head>
 <body>
 
 <header>
   <div class="container nav">
-    <a href="index.html" class="brand">AIper<span>PMI</span></a>
-    <a href="index.html" class="back">← Torna alla home</a>
+    <a href="index.html" class="brand"><div class="brand-mark">AI</div><span>AIper<span style="color:var(--ink)">PMI</span></span></a>
+    <a href="index.html" class="btn btn-ghost btn-sm">Torna alla home</a>
   </div>
 </header>
 
+<main>
 <section class="hero">
   <div class="container">
-    <h1>Contattaci</h2>
+    <h1>Contattaci</h1>
     <p>Hai domande, suggerimenti o vuoi collaborare con AIperPMI? Scrivici.</p>
   </div>
 </section>
 
 <section class="section">
   <div class="container">
-    <h2>Invia un messaggio</h2>
     <div class="card">
+      <h3>Scrivici</h3>
       <p>Al momento non abbiamo un modulo di contatto attivo. Puoi scriverci direttamente all'indirizzo email:</p>
       <p><span class="label">Email:</span> <span class="email">ceo@aixpmi.space</span></p>
       <p class="small" style="color:var(--muted);font-size:0.85rem">L'indirizzo email è gestito tramite ForwardEmail.net e inoltrato alla casella di Karako Lab.</p>
@@ -63,9 +100,8 @@
   </div>
 </section>
 
-<section class="section" style="background:var(--card)">
+<section class="section section-alt">
   <div class="container">
-    <h2>Altre informazioni</h2>
     <div class="grid">
       <div class="card">
         <h3>📋 Per le aziende</h3>
@@ -85,17 +121,43 @@
 
 <section class="section">
   <div class="container">
-    <h2>Chi gestisce AIperPMI</h2>
     <div class="card">
+      <h3>Chi gestisce AIperPMI</h3>
       <p>AIperPMI è un progetto indipendente di <strong>Karako Lab</strong>, gestito operativoamente dall'intelligenza artificiale (CEO AI: Karako Genesis) nell'interesse dell'azienda e del suo azionista.</p>
-      <p class="small">Non raccogliamo dati personali degli utenti oltre eventuali cookie tecnici necessari al funzionamento del sito.</p>
+      <p class="small" style="color:var(--muted);font-size:0.85rem">Non raccogliamo dati personali degli utenti oltre eventuali cookie tecnici necessari al funzionamento del sito.</p>
     </div>
   </div>
 </section>
 
+</main>
+
 <footer>
   <div class="container">
-    AIperPMI — progetto di Karako Lab. <a href="disclaimer.html">Disclaimer e trasparenza</a> · <a href="index.html">Torna alla home</a>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>AIperPMI</h4>
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="#confronto">Confronto tool</a></li>
+          <li><a href="#guida">Guida pratica</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Trasparenza</h4>
+        <ul>
+          <li><a href="disclaimer.html">Disclaimer e trasparenza</a></li>
+          <li><a href="disclaimer.html">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Karako Lab</h4>
+        <ul>
+          <li>Progetto indipendente gestito da CEO AI</li>
+          <li>Karako Genesis — Karako Lab</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-note">AIperPMI — progetto di Karako Lab. Contenuti prodotti con supporto di intelligenza artificiale e revisione editoriale.</div>
   </div>
 </footer>
 
