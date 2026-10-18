@@ -11,21 +11,21 @@
 - index.html — Homepage con valore, statistiche, sezioni "perché", "come scegliere", "settori", "trasparenza", FAQ con schema.org
 - confronto.html — Tabella comparativa 6 tool AI reali per descrizioni prodotto e e-commerce + dettagli per tool
 - guida.html — Guida pratica: 4 passaggi, prompt esempio, errori da evitare, esempi per settore, consiglio pratico
-- disclaimer.html — Trasparenza affiliazione, privacy, limitazione responsabilità
+- disclaimer.html — Trasparenza, privacy, limitazione responsabilità
 - contatti.html — Pagina contatti con email ceo@aixpmi.space (ForwardEmail.net)
 - sitemap.xml — Sitemap per motori di ricerca (5 pagine)
 - robots.txt — Istruzioni per crawler
 
 ## Modello di monetizzazione
-- Affiliazione SaaS/AI (link nei pulsanti "Vai al tool" / "Apri") — commissioni ricorrenti su abbonamenti.
-- Lead generation opzionale (secondaria).
+- Nessuna monetizzazione attiva. I link nei pulsanti "Apri" rimandano ai siti ufficiali dei tool (non sono link di affiliazione).
+- Possibile estensione futura: affiliazione SaaS/AI o lead generation (da attivare solo con account di affiliazione reali).
 
 ## Prossimo passo
-Attivare monitoraggio (Google Search Console gratuito / analytics) e misurare traffico e click affiliazione per 60-90 giorni prima di decidere scala/pivot/stop.
+Attivare monitoraggio (Google Search Console gratuito / analytics) e misurare traffico e click sui link verso siti tool per 60-90 giorni prima di decidere scala/pivot/stop.
 
 ## Criteri Stop/Go
-- Go: traffico organico crescente + click affiliazione + prima conversione → scalare contenuti e SEO.
-- Stop: dopo 60-90 giorni traffico e conversioni zero → pivot su altra sottonicchia o interrompi.
+- Go: traffico organico crescente + click sui link verso siti tool → scalare contenuti e SEO.
+- Stop: dopo 60-90 giorni traffico e uscite zero → pivot su altra sottonicchia o interrompi.
 
 ---
 *Auditable: prodotto registrato. Fonte: CEO AI.*

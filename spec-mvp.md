@@ -10,16 +10,16 @@
 Piccoli commercianti, artigiani e micro-e-commerce italiani che devono scrivere descrizioni prodotto e schede e-commerce ma non hanno tempo/competenze e non sanno quali tool AI usare. Cercano in italiano "come scrivere descrizioni prodotti con AI", "miglior AI descrizioni prodotto", "generatore schede prodotto ecommerce".
 
 ## Modello di monetizzazione
-- Affiliazione SaaS/AI su tool di copywriting e descrizioni prodotto (commissioni ricorrenti su abbonamenti).
-- Lead generation opzionale verso consulenti/configuratori AI per PMI (secondario).
+- Nessuna monetizzazione attiva. I link nei pulsanti "Apri" rimandano ai siti ufficiali dei tool (non sono link di affiliazione).
+- Possibile estensione futura: affiliazione SaaS/AI o lead generation (da attivare solo con account di affiliazione reali e autorizzati).
 - Nessun costo per l'utente del sito.
 
 ## MVP vendibile (contenuto minimo per pubblicare)
-1. Homepage: valore del sito, elenco tool principali, CTA affiliazione.
-2. Pagina confronto: tabella tool (prezzo, pro, contro, link affiliazione).
+1. Homepage: valore del sito, elenco tool principali, CTA verso siti ufficiali.
+2. Pagina confronto: tabella tool (prezzo, pro, contro, link diretti).
 3. Guida pratica: "Come scrivere descrizioni prodotto con AI" (passaggi, prompt esempio, errori da evitare).
-4. Recensione singola di almeno 2-3 tool con link affiliazione.
-5. Pagina disclaimer affiliazione + privacy (GDPR-lite, nessun dato raccolto oltre eventuali cookie tecnici).
+4. Recensione singola di almeno 2-3 tool con link diretti.
+5. Pagina disclaimer trasparenza + privacy (GDPR-lite, nessun dato raccolto oltre eventuali cookie tecnici).
 6. Footer con contatti Karako Lab.
 
 ## Architettura tecnica
@@ -31,9 +31,8 @@ Piccoli commercianti, artigiani e micro-e-commerce italiani che devono scrivere 
 
 ## Criteri di successo (Stop/Go) post-pubblicazione
 - Traffico organico misurabile (search console / analytics gratuito).
-- Click sui link affiliazione.
-- Prima conversione affiliazione (ricavo reale).
-- Se dopo 60-90 giorni traffico e conversioni sono zero → pivot o interrompi.
+- Click sui link verso siti tool (uscita dal sito).
+- Se dopo 60-90 giorni traffico e uscite sono zero → pivot o interrompi.
 
 ## Costi previsti
 €0 (hosting gratuito, contenuti AI-assisted, nessun acquisto).
