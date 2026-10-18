@@ -2,9 +2,10 @@
 
 **ID prodotto:** OD-002  
 **Stato:** MVP sviluppato e pubblicato (4 pagine: home, confronto, guida, disclaimer + sitemap + robots)  
-**Hosting:** GitHub Pages (free tier) — €0  
-**URL pubblicato:** https://paolettic07630-a11y.github.io/opencode/  
-**Budget speso:** €0
+**Hosting:** Vercel (free tier) — €0  
+**URL pubblicato:** https://aixpmi.space/ (dominio proprio, acquistato per 2,41€ dall'utente)  
+**URL alternativo:** https://sito-nicchia-ai-pmi.vercel.app  
+**Budget speso da Karako Lab:** €0
 
 ## Pagine del MVP (tutte HTTP 200, online)
 - index.html — Homepage con valore, statistiche, sezioni "perché", "come scegliere", "trasparenza"
