@@ -4,35 +4,48 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Confronto tool AI per descrizioni prodotto e e-commerce — AIperPMI</title>
-<meta name="description" content="Confronto dei migliori tool AI per scrivere descrizioni prodotto e schede e-commerce in italiano. Prezzi, pro, contro e link per piccoli commercianti e artigiani.">
+<meta name="description" content="Tabella comparativa dei migliori tool AI per scrivere descrizioni prodotto e schede e-commerce in italiano. Prezzi, pro, contro e link per piccole imprese italiane.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://paolettic07630-a11y.github.io/opencode/confronto.html">
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1f2937;background:#f8fafc}
-  .container{max-width:980px;margin:0 auto;padding:0 20px}
-  header{background:#ffffff;border-bottom:1px solid #e5e7eb;padding:16px 0;position:sticky;top:0;z-index:10}
+  :root{--primary:#2563eb;--primary-dark:#1d4ed8;--bg:#f8fafc;--card:#ffffff;--text:#1f2937;--muted:#4b5563;--border:#e2e8f0;--accent:#10b981}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.7;color:var(--text);background:var(--bg)}
+  .container{max-width:1100px;margin:0 auto;padding:0 20px}
+  header{background:var(--card);border-bottom:1px solid var(--border);padding:16px 0;position:sticky;top:0;z-index:10;box-shadow:0 1px 3px rgba(0,0,0,0.04)}
   .nav{display:flex;justify-content:space-between;align-items:center}
-  .brand{font-weight:800;font-size:1.35rem;color:#0f172a;text-decoration:none;letter-spacing:-0.5px}
-  .brand span{color:#2563eb}
+  .brand{font-weight:800;font-size:1.35rem;color:var(--text);text-decoration:none;letter-spacing:-0.5px}
+  .brand span{color:var(--primary)}
   .back{color:#6b7280;text-decoration:none;font-size:0.95rem}
-  .back:hover{color:#2563eb}
-  .hero{padding:46px 0 26px;text-align:center;background:#ffffff}
-  .hero h1{font-size:1.9rem;font-weight:800;color:#0f172a;line-height:1.3;margin-bottom:12px}
-  .hero p{color:#4b5563;font-size:1.05rem;max-width:620px;margin:0 auto}
+  .back:hover{color:var(--primary)}
+  .hero{padding:44px 0 26px;text-align:center;background:var(--card)}
+  .hero h1{font-size:2rem;font-weight:800;color:var(--text);line-height:1.3;margin-bottom:12px}
+  .hero p{color:var(--muted);font-size:1.05rem;max-width:700px;margin:0 auto}
   .section{padding:40px 0}
   .section:nth-child(even){background:#f1f5f9}
-  h2{font-size:1.5rem;font-weight:800;color:#0f172a;margin-bottom:10px}
-  .subhead{color:#4b5563;font-size:1rem;max-width:700px;margin:0 auto 26px}
-  table{width:100%;border-collapse:collapse;background:#ffffff;border:1px solid #e2e8f0;border-radius:10px;overflow:hidden;margin-top:10px}
-  th,td{padding:14px 16px;text-align:left;border-bottom:1px solid #f1f5f9;font-size:0.95rem}
-  th{background:#f8fafc;color:#0f172a;font-weight:700;font-size:0.9rem;text-transform:uppercase;letter-spacing:0.3px}
+  h2{font-size:1.6rem;font-weight:800;color:var(--text);margin-bottom:10px}
+  .subhead{color:var(--muted);font-size:1rem;max-width:700px;margin:0 auto 26px}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-top:10px}
+  th,td{padding:14px 16px;text-align:left;border-bottom:1px solid #f1f5f9;font-size:0.93rem}
+  th{background:#f8fafc;color:var(--text);font-weight:700;font-size:0.88rem;text-transform:uppercase;letter-spacing:0.3px}
   tr:last-child td{border-bottom:none}
   tr:hover{background:#f8fafc}
-  .price{font-weight:700;color:#2563eb}
-  .cta{display:inline-block;background:#2563eb;color:#ffffff;font-weight:700;padding:8px 18px;border-radius:6px;text-decoration:none;font-size:0.9rem}
-  .cta:hover{background:#1d4ed8}
-  .note{color:#6b7280;font-size:0.85rem;margin-top:10px}
-  footer{border-top:1px solid #e5e7eb;padding:26px 0;text-align:center;color:#6b7280;font-size:0.85rem}
-  a{color:#2563eb;text-decoration:none}
+  .tool-name{font-weight:700;color:var(--primary)}
+  .price{font-weight:700;color:var(--primary-dark)}
+  .yes{color:var(--accent);font-weight:700}
+  .no{color:#9ca3af}
+  .partial{color:#d97706;font-weight:700}
+  .cta-link{display:inline-block;background:var(--primary);color:#ffffff;font-weight:700;padding:7px 16px;border-radius:6px;text-decoration:none;font-size:0.88rem}
+  .cta-link:hover{background:var(--primary-dark)}
+  .note{color:var(--muted);font-size:0.85rem;margin-top:10px;line-height:1.5}
+  .badge{display:inline-block;background:#eff6ff;color:var(--primary);padding:3px 8px;border-radius:4px;font-size:0.78rem;font-weight:700;margin-right:6px}
+  footer{border-top:1px solid var(--border);padding:26px 0;text-align:center;color:var(--muted);font-size:0.85rem}
+  .nav-footer{display:flex;justify-content:space-between;align-items:center;margin-top:20px}
+  .btn{background:var(--primary);color:#ffffff;font-weight:700;padding:10px 24px;border-radius:6px;text-decoration:none;font-size:0.95rem}
+  .btn:hover{background:var(--primary-dark)}
+  .btn-outline{background:transparent;color:var(--primary);border:1.5px solid var(--primary);font-weight:700;padding:10px 24px;border-radius:6px;text-decoration:none;font-size:0.95rem}
+  .btn-outline:hover{background:#eff6ff}
+  a{color:var(--primary);text-decoration:none}
 </style>
 </head>
 <body>
@@ -59,72 +72,114 @@
       <thead>
         <tr>
           <th>Tool</th>
-          <th>Prezzo</th>
+          <th>Prezzo indicativo</th>
           <th>Lingua italiano</th>
           <th>Descrizioni prodotto</th>
           <th>SEO e-commerce</th>
+          <th>Bulk generation</th>
           <th>Prova gratuita</th>
           <th>Link</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-          <td><strong>Tool A</strong></td>
-          <td class="price">Gratis da provare</td>
-          <td>✔</td>
-          <td>✔</td>
-          <td>✔</td>
-          <td>✔ 7 giorni</td>
-          <td><a href="#" class="cta">Apri</a></td>
+          <td><span class="tool-name">Copy.ai</span></td>
+          <td class="price">Piano free disponibile</td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="partial">Parziale</span></td>
+          <td><span class="yes">✔ Piano free</span></td>
+          <td><a href="#" class="cta-link">Apri</a></td>
         </tr>
         <tr>
-          <td><strong>Tool B</strong></td>
-          <td class="price">Da €X/mese</td>
-          <td>✔</td>
-          <td>✔</td>
-          <td>✔</td>
-          <td>✔ 14 giorni</td>
-          <td><a href="#" class="cta">Apri</a></td>
+          <td><span class="tool-name">Jasper.ai</span></td>
+          <td class="price">Da circa $39/mese</td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔ Prova</span></td>
+          <td><a href="#" class="cta-link">Apri</a></td>
         </tr>
         <tr>
-          <td><strong>Tool C</strong></td>
-          <td class="price">Freemium</td>
-          <td>✔</td>
-          <td>✔</td>
-          <td>Parziale</td>
-          <td>✔ Piano free</td>
-          <td><a href="#" class="cta">Apri</a></td>
+          <td><span class="tool-name">Writesonic</span></td>
+          <td class="price">Piano free disponibile</td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔ Piano free</span></td>
+          <td><a href="#" class="cta-link">Apri</a></td>
+        </tr>
+        <tr>
+          <td><span class="tool-name">Hypotenuse AI</span></td>
+          <td class="price">Da circa $29/mese</td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔ Prova</span></td>
+          <td><a href="#" class="cta-link">Apri</a></td>
+        </tr>
+        <tr>
+          <td><span class="tool-name">Rytr</span></td>
+          <td class="price">Piano free disponibile</td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="partial">Parziale</span></td>
+          <td><span class="no">✘</span></td>
+          <td><span class="yes">✔ Piano free</span></td>
+          <td><a href="#" class="cta-link">Apri</a></td>
+        </tr>
+        <tr>
+          <td><span class="tool-name">Anyword</span></td>
+          <td class="price">Da circa $39/mese</td>
+          <td><span class="partial">Parziale</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="yes">✔</span></td>
+          <td><span class="no">✘</span></td>
+          <td><span class="yes">✔ Prova</span></td>
+          <td><a href="#" class="cta-link">Apri</a></td>
         </tr>
       </tbody>
     </table>
-    <p class="note">I link in questa pagina possono essere link di affiliazione. Se acquisti un abbonamento tramite tali link, potremmo ricevere una piccola commissione senza alcun costo aggiuntivo per te. Le recensioni sono indipendenti.</p>
+    <p class="note">I link in questa pagina possono essere link di affiliazione. Se acquisti un abbonamento tramite tali link, potremmo ricevere una piccola commissione senza alcun costo aggiuntivo per te. Le recensioni sono indipendenti e non condizionate dai partner.</p>
   </div>
 </section>
 
-<section class="section" style="background:#ffffff">
+<section class="section" style="background:var(--card)">
   <div class="container">
-    <h2>Come scegliere il tool giusto</h2>
-    <p class="subhead">Tre domande prima di abbonarti.</p>
+    <h2>Come leggere questa tabella</h2>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px">
-      <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:18px">
-        <strong>Quanti prodotti devi descrivere?</strong><br>
-        Se sono pochi, un piano gratuito o freemium può bastare. Se sono centinaia, cerca la "bulk generation".
+      <div style="background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:18px">
+        <strong>Lingua italiano</strong><br>
+        Indica se il tool supporta nativamente l'italiano per la generazione di copy e-commerce. Anche se un tool dichiara il supporto, ti consigliamo di rivedere sempre il testo generato.
       </div>
-      <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:18px">
-        <strong>Ti serve solo l'italiano?</strong><br>
-        Non tutti i tool gestiscono bene l'italiano per copy e-commerce. Verifica con una prova gratuita.
+      <div style="background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:18px">
+        <strong>Descrizioni prodotto</strong><br>
+        Il tool include template o flussi dedicati specificamente alle schede prodotto e-commerce (non solo copy generico).
       </div>
-      <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:8px;padding:18px">
-        <strong>Vuoi ottimizzare per SEO?</strong><br>
-        Scegli tool che permettono di inserire keyword e generare meta description e title.
+      <div style="background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:18px">
+        <strong>SEO e-commerce</strong><br>
+        Permette di inserire keyword e generare meta title, description e testi ottimizzati per i motori di ricerca.
+      </div>
+      <div style="background:#f8fafc;border:1px solid var(--border);border-radius:8px;padding:18px">
+        <strong>Bulk generation</strong><br>
+        Consente di generare descrizioni per molti prodotti in una sola volta (utile se hai cataloghi ampi).
       </div>
     </div>
   </div>
 </section>
 
+<div class="nav-footer">
+  <a href="guida.html" class="btn-outline">← Guida pratica</a>
+  <a href="index.html" class="btn">Torna alla home</a>
+</div>
+
 <footer>
   <div class="container">
-    AIperPMI — progetto di Karako Lab. <a href="disclaimer.html">Disclaimer e trasparenza</a> · <a href="index.html">Torna alla home</a>
+    AIperPMI — progetto di Karako Lab. <a href="disclaimer.html">Disclaimer e trasparenza</a>
   </div>
 </footer>
 

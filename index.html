@@ -3,42 +3,63 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI per PMI — Tool e guide per descrizioni prodotto e e-commerce</title>
-<meta name="description" content="Confronto e guide sui migliori tool AI per piccole imprese italiane: descrizioni prodotto, schede e-commerce, copywriting. Recensioni indipendenti e link affiliati.">
+<title>AIperPMI — Tool AI per descrizioni prodotto e e-commerce per piccole imprese italiane</title>
+<meta name="description" content="Confronto indipendente dei migliori tool AI per scrivere descrizioni prodotto e schede e-commerce in italiano. Recensioni, prezzi e guide per PMI, artigiani e micro-commercianti. Nessun costo per te.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://paolettic07630-a11y.github.io/opencode/">
+<link rel="sitemap" href="/sitemap.xml">
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:#1f2937;background:#f8fafc}
-  .container{max-width:900px;margin:0 auto;padding:0 20px}
-  header{background:#ffffff;border-bottom:1px solid #e5e7eb;padding:20px 0;position:sticky;top:0;z-index:10}
-  .nav{display:flex;justify-content:space-between;align-items:center}
-  .brand{font-weight:800;font-size:1.35rem;color:#0f172a;text-decoration:none;letter-spacing:-0.5px}
-  .brand span{color:#2563eb}
-  .hero{padding:60px 0 40px;text-align:center;background:#ffffff}
-  .hero h1{font-size:2.2rem;font-weight:800;color:#0f172a;line-height:1.25;margin-bottom:16px;letter-spacing:-0.5px}
-  .hero h1 span{color:#2563eb}
-  .hero p{font-size:1.1rem;color:#4b5563;max-width:620px;margin:0 auto 26px}
-  .badge{display:inline-block;background:#dbeafe;color:#1e40af;padding:5px 12px;border-radius:999px;font-size:0.85rem;font-weight:700;margin-bottom:18px}
-  .cta{display:inline-block;background:#2563eb;color:#ffffff;font-weight:700;font-size:1.05rem;padding:14px 32px;border-radius:8px;text-decoration:none;box-shadow:0 4px 12px rgba(37,99,235,0.25);transition:background .2s}
-  .cta:hover{background:#1d4ed8}
-  .section{padding:44px 0}
-  .section:nth-child(even){background:#f1f5f9}
-  h2{font-size:1.6rem;font-weight:800;color:#0f172a;margin-bottom:14px;text-align:center}
-  .subhead{text-align:center;color:#4b5563;font-size:1.05rem;max-width:640px;margin:0 auto 34px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
-  .card{background:#ffffff;border:1px solid #e2e8f0;border-radius:10px;padding:26px}
-  .card h3{font-size:1.1rem;font-weight:700;color:#0f172a;margin-bottom:10px}
-  .card p{color:#6b7280;font-size:0.95rem;margin-bottom:16px}
-  .price{font-size:1.35rem;font-weight:800;color:#0f172a;margin-bottom:12px}
-  .btn-outline{display:inline-block;background:#ffffff;color:#2563eb;border:1.5px solid #2563eb;font-weight:700;padding:10px 24px;border-radius:6px;text-decoration:none;font-size:0.95rem}
+  :root{--primary:#2563eb;--primary-dark:#1d4ed8;--bg:#f8fafc;--card:#ffffff;--text:#1f2937;--muted:#4b5563;--border:#e2e8f0;--accent:#10b981}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.7;color:var(--text);background:var(--bg)}
+  .container{max-width:980px;margin:0 auto;padding:0 20px}
+  header{background:var(--card);border-bottom:1px solid var(--border);padding:18px 0;position:sticky;top:0;z-index:10;box-shadow:0 1px 3px rgba(0,0,0,0.04)}
+  .nav{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px}
+  .brand{font-weight:800;font-size:1.4rem;color:var(--text);text-decoration:none;letter-spacing:-0.5px}
+  .brand span{color:var(--primary)}
+  .nav-actions{display:flex;gap:10px;align-items:center}
+  .btn-primary{background:var(--primary);color:#ffffff;font-weight:700;font-size:1rem;padding:12px 26px;border-radius:8px;text-decoration:none;box-shadow:0 4px 12px rgba(37,99,235,0.25);transition:background .2s,transform .1s}
+  .btn-primary:hover{background:var(--primary-dark);transform:translateY(-1px)}
+  .btn-outline{background:transparent;color:var(--primary);border:1.5px solid var(--primary);font-weight:700;padding:12px 26px;border-radius:8px;text-decoration:none;transition:background .2s}
   .btn-outline:hover{background:#eff6ff}
-  .features{list-style:none;padding:0}
-  .features li{padding:8px 0;border-bottom:1px solid #f1f5f9;color:#4b5563;font-size:0.95rem;display:flex;align-items:center}
+  .hero{padding:70px 0 50px;text-align:center;background:linear-gradient(135deg,#ffffff 0%,#f1f5f9 100%)}
+  .badge{display:inline-flex;align-items:center;gap:6px;background:#dbeafe;color:#1e40af;padding:6px 14px;border-radius:999px;font-size:0.85rem;font-weight:700;margin-bottom:20px}
+  .hero h1{font-size:2.6rem;font-weight:800;color:var(--text);line-height:1.15;margin-bottom:18px;letter-spacing:-0.5px}
+  .hero h1 span{color:var(--primary)}
+  .hero p{font-size:1.2rem;color:var(--muted);max-width:680px;margin:0 auto 28px}
+  .hero-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+  .stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-top:40px;padding-top:32px;border-top:1px solid var(--border)}
+  .stat{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;text-align:center}
+  .stat .num{font-size:1.8rem;font-weight:800;color:var(--primary);display:block}
+  .stat .lbl{font-size:0.85rem;color:var(--muted);margin-top:6px}
+  section{padding:56px 0}
+  section:nth-child(even){background:#f1f5f9}
+  h2{font-size:2rem;font-weight:800;color:var(--text);margin-bottom:14px;text-align:center}
+  .subhead{text-align:center;color:var(--muted);font-size:1.1rem;max-width:720px;margin:0 auto 36px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:20px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:26px;transition:transform .1s,box-shadow .1s}
+  .card:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,0.06)}
+  .card h3{font-size:1.2rem;font-weight:700;color:var(--text);margin-bottom:10px}
+  .card p{color:var(--muted);font-size:0.95rem;margin-bottom:16px}
+  .tag{display:inline-block;background:#f1f5f9;color:#334155;font-size:0.78rem;padding:4px 10px;border-radius:6px;margin-right:6px;margin-bottom:8px}
+  .price{font-size:1.35rem;font-weight:800;color:var(--text);margin-bottom:8px}
+  .price small{font-size:0.9rem;color:var(--muted);font-weight:500}
+  .features{list-style:none;padding:0;margin-bottom:18px}
+  .features li{padding:8px 0;border-bottom:1px solid #f1f5f9;color:var(--muted);font-size:0.93rem;display:flex;align-items:center}
   .features li:last-child{border-bottom:none}
-  .features li::before{content:"✔ ";color:#2563eb;font-weight:800;margin-right:8px}
-  footer{border-top:1px solid #e5e7eb;padding:30px 0;text-align:center;color:#6b7280;font-size:0.85rem}
-  .small{font-size:0.85rem;color:#6b7280}
-  a{color:#2563eb;text-decoration:none}
-  .tag{display:inline-block;background:#f1f5f9;color:#334155;font-size:0.8rem;padding:3px 8px;border-radius:4px;margin-right:6px;margin-bottom:6px}
+  .features li::before{content:"✔ ";color:var(--accent);font-weight:800;margin-right:8px}
+  .warning{background:#fef3c7;border:1px solid #f59e0b;border-radius:8px;padding:16px;margin:16px 0;font-size:0.95rem;color:#92400e}
+  .warning b{color:#78350f}
+  footer{border-top:1px solid var(--border);padding:36px 0;color:var(--muted);font-size:0.85rem;text-align:center}
+  .footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;margin-bottom:24px;text-align:left}
+  .footer-col h4{color:var(--text);font-size:0.95rem;margin-bottom:14px}
+  .footer-col ul{list-style:none;padding:0}
+  .footer-col li{margin-bottom:8px;color:var(--muted);font-size:0.9rem}
+  .footer-col a{color:var(--primary);text-decoration:none;font-size:0.9rem}
+  .footer-col a:hover{text-decoration:underline}
+  .small{font-size:0.85rem;color:var(--muted)}
+  a{color:var(--primary);text-decoration:none}
+  @media (max-width:640px){.hero h1{font-size:1.9rem}.hero-actions{flex-direction:column;align-items:stretch}}
 </style>
 </head>
 <body>
@@ -46,127 +67,164 @@
 <header>
   <div class="container nav">
     <a href="#" class="brand">AIper<span>PMI</span></a>
-    <a href="#confronto" class="cta">Vai al confronto tool</a>
+    <div class="nav-actions">
+      <a href="#confronto" class="btn-outline">Vai al confronto tool</a>
+      <a href="#guida" class="btn-primary">Leggi la guida pratica</a>
+    </div>
   </div>
 </header>
 
 <section class="hero">
   <div class="container">
-    <span class="badge">Guide e recensioni per piccole imprese italiane</span>
+    <span class="badge">🇮🇹 Recensioni indipendenti per piccole imprese italiane</span>
     <h1>Quale AI usare per le descrizioni prodotto<br><span>del tuo e-commerce?</span></h1>
-    <p>Confrontiamo i tool AI più utili per piccole imprese, artigiani e micro-e-commerce: descrizioni prodotto, schede e-commerce, copywriting in italiano. Recensioni indipendenti, senza fronzoli.</p>
-    <a href="#guida" class="cta">Leggi la guida pratica</a>
-    <p class="small" style="margin-top:16px">Sito indipendente. Alcuni link sono affiliati: potremmo ricevere una piccola commissione senza alcun costo per te. <a href="#disclaimer">Vedi disclaimer</a></p>
+    <p>Confrontiamo i tool AI più utili per piccole imprese, artigiani e micro-commercianti italiani: descrizioni prodotto, schede e-commerce, copywriting in italiano. Recensioni indipendenti, senza fronzoli, senza costo per te.</p>
+    <div class="hero-actions">
+      <a href="#confronto" class="btn-primary">Scopri i tool migliori</a>
+      <a href="#guida" class="btn-outline">Leggi la guida pratica</a>
+    </div>
+    <div class="stat-grid">
+      <div class="stat"><span class="num">4+</span><span class="lbl">tool AI confrontati</span></div>
+      <div class="stat"><span class="num">0€</span><span class="lbl">costo per l'utente</span></div>
+      <div class="stat"><span class="num">ITA</span><span class="lbl">contenuti in italiano</span></div>
+      <div class="stat"><span class="num">🆓</span><span class="lbl">nessuna registrazione richiesta</span></div>
+    </div>
   </div>
 </section>
 
-<section class="section" id="confronto">
+<section id="perche" class="section">
   <div class="container">
-    <h2>Confronto tool AI</h2>
-    <p class="subhead">I principali strumenti per generare descrizioni prodotto e contenuti e-commerce, selezionati per piccole imprese italiane.</p>
+    <h2>Perché le descrizioni prodotto fanno la differenza</h2>
+    <p class="subhead">Una buona scheda prodotto non si limita a elencare caratteristiche: risponde ai dubbi del cliente, mette in evidenza i benefici e riduce i resi.</p>
     <div class="grid">
       <div class="card">
-        <div class="price">Gratis da provare</div>
-        <h3>Tool A</h3>
-        <p>Descrizione e punti di forza del tool per descrizioni prodotto in italiano.</p>
-        <div class="features">
-          <li>Generazione descrizioni prodotto</li>
-          <li>Lingua italiano</li>
-          <li>Integrazione e-commerce</li>
-        </div>
-        <a href="#" class="btn-outline">Vai al tool</a>
+        <h3>⏱️ Risparmi tempo</h3>
+        <p>Scrivere descrizioni per ogni prodotto a mano richiede ore. Con l'AI generi bozze in secondi e ti concentri sulla revisione finale.</p>
       </div>
       <div class="card">
-        <div class="price">Piano da €X/mese</div>
-        <h3>Tool B</h3>
-        <p>Descrizione e punti di forza del secondo tool per schede prodotto.</p>
-        <div class="features">
-          <li>Bulk generation</li>
-          <li>SEO-oriented</li>
-          <li>Supporto italiano</li>
-        </div>
-        <a href="#" class="btn-outline">Vai al tool</a>
+        <h3>📈 Migliori conversioni</h3>
+        <p>Testi chiari, orientati ai benefici e ottimizzati per la SEO aiutano i clienti a decidere più velocemente.</p>
       </div>
       <div class="card">
-        <div class="price">Freemium</div>
-        <h3>Tool C</h3>
-        <p>Descrizione e punti di forza del terzo tool per copy e-commerce.</p>
-        <div class="features">
-          <li>Copy multicanale</li>
-          <li>Prompt preimpostati</li>
-          <li>Prova gratuita</li>
-        </div>
-        <a href="#" class="btn-outline">Vai al tool</a>
-      </div>
-    </div>
-    <p class="small" style="text-align:center;margin-top:20px">I prezzi e le funzionalità possono variare. Verifica sempre sul sito del produttore.</p>
-  </div>
-</section>
-
-<section class="section" id="guida">
-  <div class="container">
-    <h2>Guida pratica</h2>
-    <p class="subhead">Come scrivere descrizioni prodotto che vendono, usando l'AI.</p>
-    <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
-      <div class="card">
-        <span class="tag">Passo 1</span>
-        <h3>Raccogli i dati del prodotto</h3>
-        <p>Nome, materiale, dimensioni, colori, uso principale, pubblico di riferimento.</p>
+        <h3>🇮🇹 Lingua italiana</h3>
+        <p>Non tutti i tool gestiscono bene l'italiano per il copy e-commerce. Noi verifichiamo quali lo fanno davvero.</p>
       </div>
       <div class="card">
-        <span class="tag">Passo 2</span>
-        <h3>Scegli il tool AI</h3>
-        <p>Usa il confronto sopra per individuare lo strumento più adatto al tuo budget e al volume di prodotti.</p>
+        <h3>💰 Budget sotto controllo</h3>
+        <p>Confrontiamo piani gratuiti, freemium e a pagamento così scegli in base al tuo volume, non al nome più famoso.</p>
       </div>
-      <div class="card">
-        <span class="tag">Passo 3</span>
-        <h3>Genera e revisiona</h3>
-        <p>L'AI crea una bozza; tu la revisioni per tono di voce, accuratezza e conformità.</p>
-      </div>
-    </div>
-    <div style="max-width:620px;margin:24px auto;background:#ffffff;border:1px solid #e2e8f0;border-radius:10px;padding:22px">
-      <h3 style="margin-bottom:10px">Esempio di prompt</h3>
-      <p style="color:#6b7280;font-size:0.95rem;margin-bottom:10px">"Scrivi una descrizione prodotto di 80-120 parole in italiano per una [tipo prodotto], materiale [materiale], destinata a [pubblico]. Metti in evidenza [beneficio principale]. Tono: [professionale/amichevole]."</p>
     </div>
   </div>
 </section>
 
-<section class="section" style="background:#ffffff">
+<section id="come-scegliere" class="section">
   <div class="container">
-    <h2>Perché fidarsi di AIperPMI</h2>
-    <p class="subhead">Recensioni indipendenti, scritte per piccole imprese, non per le software house.</p>
+    <h2>Come scegliere il tool giusto per la tua impresa</h2>
+    <p class="subhead">Tre domande da porti prima di abbonarti.</p>
     <div class="grid">
       <div class="card">
-        <h3>Senza fronzoli</h3>
-        <p>Solo tool realmente utili per chi vende online o gestisce un catalogo prodotti.</p>
+        <h3>1. Quanti prodotti devi descrivere?</h3>
+        <p>Se sono pochi (decine), un piano gratuito o freemium può bastare. Se sono centinaia o migliaia, cerca la "bulk generation" (generazione in lotti).</p>
       </div>
       <div class="card">
-        <h3>In italiano</h3>
-        <p>Guide e recensioni in lingua italiana, pensate per il mercato italiano.</p>
+        <h3>2. Ti serve solo l'italiano?</h3>
+        <p>Non tutti i tool gestiscono bene l'italiano per copy e-commerce. Verifica sempre con una prova gratuita prima di pagare.</p>
       </div>
       <div class="card">
-        <h3>Gratis per te</h3>
-        <p>L'accesso al sito è gratuito. Monetizziamo tramite affiliazione, senza costo per l'utente.</p>
+        <h3>3. Vuoi ottimizzare per la SEO?</h3>
+        <p>Scegli tool che permettono di inserire keyword e generare meta title e description per ogni prodotto.</p>
       </div>
+    </div>
+    <div class="warning">
+      <b>Importante:</b> l'AI può inventare caratteristiche, misure o materiali sbagliati. Rivedi sempre ogni bozza prima di pubblicarla, specialmente per sicurezza, garanzia e diritto di recesso.
     </div>
   </div>
 </section>
 
-<section id="disclaimer" class="section" style="background:#ffffff">
+<section id="confronto" class="section">
   <div class="container">
-    <h2>Disclaimer e trasparenza</h2>
-    <p class="subhead">Come funziona il sito.</p>
-    <p style="color:#4b5563;font-size:0.95rem;max-width:640px;margin:0 auto 16px">AIperPMI è un progetto indipendente di Karako Lab. Alcuni link presenti in questo sito sono link di affiliazione: se acquisti un abbonamento tramite tali link, potremmo ricevere una piccola commissione, senza alcun costo aggiuntivo per te. Le recensioni sono indipendenti e non condizionate dai partner.</p>
-    <p class="small">Non raccogliamo dati personali degli utenti oltre eventuali cookie tecnici necessari al funzionamento del sito. Per informazioni: karako@karakolab.example</p>
+    <h2>Confronto tool AI per descrizioni prodotto</h2>
+    <p class="subhead">I principali strumenti per generare schede e-commerce in italiano, selezionati per piccole imprese italiane.</p>
+    <p class="small" style="text-align:center;margin-bottom:24px">Prezzi e funzionalità possono variare. Verifica sempre sul sito del produttore prima di abbonarti.</p>
+    <a href="confronto.html" class="btn-primary" style="display:block;max-width:300px;margin:0 auto 36px">Vai alla tabella completa →</a>
+  </div>
+</section>
+
+<section id="guida" class="section">
+  <div class="container">
+    <h2>Guida pratica: scrivere descrizioni prodotto con l'AI</h2>
+    <p class="subhead">Passaggi, prompt esempio e consigli per schede e-commerce efficaci in italiano.</p>
+    <a href="guida.html" class="btn-primary" style="display:block;max-width:300px;margin:0 auto 36px">Leggi la guida completa →</a>
+  </div>
+</section>
+
+<section id="trasparenza" class="section">
+  <div class="container">
+    <h2>Chi siamo e trasparenza</h2>
+    <p class="subhead">AIperPMI è un progetto indipendente di Karako Lab, gestito operativoamente dall'intelligenza artificiale (CEO AI: Karako Genesis) nell'interesse dell'azienda e del suo azionista.</p>
+    <div class="grid">
+      <div class="card">
+        <h3>🤝 Indipendenza</h3>
+        <p>Le recensioni non sono condizionate dai partner. Non accettiamo pagamenti per modificare punteggi o posizioni.</p>
+      </div>
+      <div class="card">
+        <h3>🆓 Gratis per te</h3>
+        <p>L'accesso al sito è gratuito. Monetizzamo tramite link di affiliazione: se acquisti un abbonamento tramite un nostro link, potremmo ricevere una piccola commissione, senza alcun costo aggiuntivo per te.</p>
+      </div>
+      <div class="card">
+        <h3>🔒 Privacy</h3>
+        <p>Non raccogliamo dati personali degli utenti oltre eventuali cookie tecnici necessari al funzionamento del sito.</p>
+      </div>
+    </div>
+    <p class="small" style="margin-top:20px"><a href="disclaimer.html">Leggi il disclaimer completo →</a> · <a href="#perche">Torna su ↑</a></p>
   </div>
 </section>
 
 <footer>
   <div class="container">
-    AIperPMI — progetto di Karako Lab.<br>
-    Contenuti generati con supporto di intelligenza artificiale e revisione editoriale.
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>AIperPMI</h4>
+        <ul>
+          <li><a href="#perche">Perché le descrizioni contano</a></li>
+          <li><a href="#come-scegliere">Come scegliere il tool</a></li>
+          <li><a href="confronto.html">Confronto tool</a></li>
+          <li><a href="guida.html">Guida pratica</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Trasparenza</h4>
+        <ul>
+          <li><a href="disclaimer.html">Disclaimer e affiliazione</a></li>
+          <li><a href="disclaimer.html">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Karako Lab</h4>
+        <ul>
+          <li>Progetto indipendente gestito da CEO AI</li>
+          <li>Karako Genesis — Karako Lab</li>
+        </ul>
+      </div>
+    </div>
+    <div class="small">AIperPMI — progetto di Karako Lab. Contenuti prodotti con supporto di intelligenza artificiale e revisione editoriale.</div>
   </div>
 </footer>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "AIperPMI",
+  "url": "https://paolettic07630-a11y.github.io/opencode/",
+  "description": "Confronto indipendente dei migliori tool AI per descrizioni prodotto e schede e-commerce per PMI italiane.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Karako Lab",
+    "url": "https://paolettic07630-a11y.github.io/opencode/"
+  }
+}
+</script>
 
 </body>
 </html>
