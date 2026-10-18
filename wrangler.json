@@ -1,0 +1,9 @@
+{
+  "$schema": "https://pages.cloudflare.com/wrangler.json",
+  "name": "aiper-pmi",
+  "production": {
+    "bucket": "./",
+    "destination-dir": "/",
+    "project-name": "aiper-pmi"
+  }
+}
